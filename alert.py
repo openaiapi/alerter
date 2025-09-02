@@ -40,7 +40,7 @@ def check_for_macd_cross():
     
     try:
         # 1. Fetch Data
-        exchange = ccxt.binance()
+        exchange = ccxt.kucoin()
         ohlcv = exchange.fetch_ohlcv(symbol, timeframe, limit=100)
         
         # 2. Process Data with Pandas
