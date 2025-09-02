@@ -1,5 +1,5 @@
 # A descriptive name for your workflow
-name: Check Crypto MACD Alert
+name: Check Alert
 
 # --- Triggers ---
 # This section defines when the workflow will run
